@@ -1,0 +1,13 @@
+[Unit]
+Description=colourcat4000
+After=multi-user.target
+
+[Service]
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+WorkingDir=FOLDER-CONTAINING-CODE
+ExecStart=FOLDER-CONTAINING-CODE/changes.py
+
+[Install]
+WantedBy=multi-user.target
