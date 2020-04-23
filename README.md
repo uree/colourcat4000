@@ -2,6 +2,8 @@
 
 This code extracts highlights from your pdfs and posts them to elasticsearch. It is tailored to cyborgs who like to code their highlights by colour.
 
+Works with python 2.7. Might work with newer versions too.
+
 ## What else?
 
 It watches a folder for changes and keeps the elasticsearch index up to date.
