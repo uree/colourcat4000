@@ -72,5 +72,3 @@ sudo systemctl start colourcat.service
 ```
 
 Optional: Install [elasticsearch-head](https://github.com/mobz/elasticsearch-head) (or similar) for more convenient browsing and searching through your highlights.
-
-test1
